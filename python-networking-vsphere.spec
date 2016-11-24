@@ -79,7 +79,7 @@ Summary:   A set for networking-vsphere nova drivers
 
 Requires:  python-eventlet
 Requires:  python-oslo-vmware
-Requires:  python-nova
+#Requires:  python-nova
 
 %description nova
 A set for networking-vsphere nova drivers
