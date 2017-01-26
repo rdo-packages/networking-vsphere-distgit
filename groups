@@ -1,5 +1,5 @@
-# UUID          Group Name
-False 	Non-Interactive Users
-02fe356a7fdcbae50f0459b39c7a759fbcbf6774       	openstack/networking-vsphere-distgit-core
-038c0f0d09dc97e21b2977f8946c1d94170e65e2        	openstack/networking-vsphere-distgit-ptl
-global:Registered-Users		Registered Users
+# UUID                                  	Group Name
+#
+02fe356a7fdcbae50f0459b39c7a759fbcbf6774	openstack/networking-vsphere-distgit-core
+038c0f0d09dc97e21b2977f8946c1d94170e65e2	openstack/networking-vsphere-distgit-ptl
+global:Registered-Users                 	Registered Users
