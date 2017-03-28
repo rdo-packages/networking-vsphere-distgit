@@ -1,5 +1,9 @@
-# UUID                                  	Group Name
-#
-02fe356a7fdcbae50f0459b39c7a759fbcbf6774	openstack/networking-vsphere-distgit-core
-038c0f0d09dc97e21b2977f8946c1d94170e65e2	openstack/networking-vsphere-distgit-ptl
-global:Registered-Users                 	Registered Users
+# UUID Group Name
+global:Registered-Users	Registered Users
+4572c517702492251ad622a289176552a8acbbb2	rdo-superusers
+global:Anonymous-Users	Anonymous Users
+0a4448f59fdb857b8a9890263ce04ec4e976675f	openstack/networking-vsphere-ptl
+05a678d3d4a168e149d5e8a0063bbd1b1c5526da	Administrators
+401cf37bee35d1c809d4d957e55f2a304f8eed69	rdo-provenpackagers
+6ddfecad023c6f4fa3ac8c4d2583c502ea675a73	Non-Interactive Users
+f541355e2277af3104f061f32879d57419b61bd4	openstack/networking-vsphere-core
