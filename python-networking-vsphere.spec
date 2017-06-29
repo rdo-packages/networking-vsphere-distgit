@@ -115,7 +115,7 @@ rm -f *requirements.txt
 
 %install
 %py2_install
-%{__python2} setup.py build_sphinx
+%{__python2} setup.py build_sphinx -b man
 
 # Move config file to proper location
 mkdir -p %{buildroot}%{_sysconfdir}/neutron/
