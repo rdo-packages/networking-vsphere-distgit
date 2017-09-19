@@ -25,6 +25,7 @@ BuildRequires:  python-setuptools
 BuildRequires:  python-oslo-sphinx
 BuildRequires:  python-sphinx
 BuildRequires:  rdo-rpm-macros
+BuildRequires:  openstack-macros
 
 Requires:   python-setuptools
 Requires:   openstack-neutron-common
@@ -106,7 +107,7 @@ A set of tests for %{package_name} package.
 export PBR_VERSION=%{version}
 
 # Let's handle dependencies ourseleves
-rm -f *requirements.txt
+%py_req_cleanup
 
 
 %build
