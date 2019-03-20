@@ -27,10 +27,15 @@ BuildRequires:  python-sphinx
 BuildRequires:  rdo-rpm-macros
 BuildRequires:  openstack-macros
 
+Requires:   openstack-neutron-common >= 1:13.0.0
+Requires:   python-babel >= 2.3.4
+Requires:   python-neutron-lib >= 1.18.0
 Requires:   python-setuptools
-Requires:   openstack-neutron-common
-Requires:   python-oslo-vmware
+Requires:   python-oslo-vmware >= 2.17.0
+Requires:   python-ovsdbapp >= 0.10.0
+Requires:   python-pbr >= 2.0.0
 Requires:   openvswitch
+
 
 # Fix this owful shit when rootwrap/openvswitch-plugin.filters whould be
 # available from common rpm for more beautiful requiring
